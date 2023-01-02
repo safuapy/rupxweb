@@ -46,23 +46,22 @@ function Section() {
   }, []);
 
   return (
-    <div className="container h-100">
-      <div className="text-white bg-primary border rounded border-0 p-4 py-5">
-        <div className="row h-100">
-          <div className="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-            <div>
-              <h1 className="text-uppercase fw-bold text-white mb-3">Experience the Power of Rupaya</h1>
-              <p className="mb-4" style={{fontFamily: "'Anek Devanagari', sans-serif", textAlign: "center"}}>
-                Welcome to Rupaya, the cryptocurrency that is revolutionizing the way we transact online. With fast and secure transactions, low fees, and a dedicated community of users, Rupaya is the perfect choice for anyone looking to make the most of their digital assets. Whether you're a seasoned cryptocurrency investor or new to the world of digital currency, Rupaya has something to offer you. So why wait? Join the Rupaya community today and discover the power of our innovative cryptocurrency.
-              </p>
-              <a href="https://discord.gg/8tbvMQM">
-                <button className="btn btn-light fs-5 py-2 px-4" type="button">Join Discord</button>
-              </a>
+<section class="py-4 py-xl-5">
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                <div>
+                    <h2 class="text-uppercase fw-bold mb-3">Empowering Digital Currency</h2>
+                    <p class="mb-4">Experience the power of digital currency with Rupaya. Secure and<br />innovative, RUPX is the choice for a brighter financial future. Join us<br />on Discord today!</p>
+                    <a href="https://pancakeswap.finance/swap?outputCurrency=0xeA3d4D95D4294E9f69b78df381EAd248cc5D4F53" class="btn btn-primary fs-5 me-2 py-2 px-4" type="button" title="Buy on PancakeSwap">Buy on PancakeSwap</a>
+                    <a href="https://discord.gg/8tbvMQM" class="btn btn-outline-primary fs-5 py-2 px-4" type="button">Join Discord</a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
+</section>
+
+
   );
 }
 
