@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Anek Devanagari', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #6c757d;
+}
+
+.alert {
+  font-size: 1.2rem;
+}
+
+.section {
+  background-color: #f7f7f7;
+  font-size: 1.2rem;
+}
+
+.section .row {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section h2 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section p {
+  font-size: 1.2rem;
+}
+
+.section .btn {
+  font-size: 1.2rem;
 }
